@@ -1,0 +1,52 @@
+{
+  "index": 1,
+  "category": "量化表示、重建与位宽",
+  "title": "Ternary Weight Networks",
+  "source_url": "https://arxiv.org/abs/1605.04711",
+  "stable_id": "1605.04711",
+  "category_dir": "01-量化表示与位宽",
+  "paper_dir": "arXiv2016-TWN",
+  "pdf_path": "01-量化表示与位宽/arXiv2016-TWN/arXiv2016-TWN.pdf",
+  "resolved_pdf_url": "https://arxiv.org/pdf/1605.04711",
+  "source_type": "native_pdf",
+  "status": "downloaded",
+  "bytes": 796419,
+  "sha256": "32638debeff5607f165d9dd949c5b6c41b38ae2ef0a21bbf34db832c16b31948",
+  "title_match": 1.0,
+  "error": "",
+  "abbreviation": "TWN",
+  "notes": "quantization formulation",
+  "arxiv_metadata": {
+    "Comments:": "5 pages, 3 fitures, conference",
+    "Subjects:": "Computer Vision and Pattern Recognition (cs.CV)",
+    "Cite as:": "arXiv:1605.04711 [cs.CV]",
+    "": "https://doi.org/10.48550/arXiv.1605.04711 Focus to learn more arXiv-issued DOI via DataCite"
+  },
+  "venue_status": "unconfirmed",
+  "venue_evidence": [
+    "https://arxiv.org/abs/1605.04711"
+  ],
+  "code_archive": {
+    "paper_dir": "arXiv2016-TWN",
+    "title": "Ternary Weight Networks",
+    "paper_url": "https://arxiv.org/abs/1605.04711",
+    "checked_at": "2026-10-07T02:01:40.700694+00:00",
+    "status": "linked",
+    "local_path": "/usr/data/TWN",
+    "symlink_path": "/usr/data/Awesome-Quantization/01-量化表示与位宽/arXiv2016-TWN/code",
+    "repository_url": "https://github.com/Thinklab-SJTU/twns.git",
+    "commit": "2c192c38559ffe168139c9e519a053c295ca1313",
+    "note": "官方仓库；仅下载源码，未安装依赖或运行训练。",
+    "verification": "论文提供的官方仓库地址",
+    "paper_path": "01-量化表示与位宽/arXiv2016-TWN",
+    "category_dir": "01-量化表示与位宽"
+  },
+  "paper_path": "01-量化表示与位宽/arXiv2016-TWN",
+  "high_level": "三值表示需要同时处理离散值与缩放系数，不能只对全精度权重直接取符号。",
+  "method_summary": "用带缩放的三值权重近似连续权重，并用阈值规则近似求解量化映射。",
+  "tags": [
+    "三值表示",
+    "量化映射",
+    "缩放系数"
+  ]
+}

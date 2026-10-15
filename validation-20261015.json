@@ -1,0 +1,10 @@
+{
+  "papers": 15,
+  "category_count": 5,
+  "pdfs_valid": 15,
+  "original_pdf_hashes_preserved": true,
+  "broken_markdown_links": [],
+  "documented_local_links": 18,
+  "local_code_links_preserved": 10,
+  "workspace_symlink_target": "/usr/data/Awesome-Quantization"
+}

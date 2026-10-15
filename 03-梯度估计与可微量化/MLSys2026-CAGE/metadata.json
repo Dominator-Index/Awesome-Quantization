@@ -1,0 +1,53 @@
+{
+  "index": 8,
+  "category": "梯度估计与可微量化",
+  "title": "CAGE: Curvature-Aware Gradient Estimation For Accurate Quantization-Aware Training",
+  "source_url": "https://arxiv.org/abs/2510.18784",
+  "stable_id": "2510.18784",
+  "category_dir": "03-梯度估计与可微量化",
+  "paper_dir": "MLSys2026-CAGE",
+  "pdf_path": "03-梯度估计与可微量化/MLSys2026-CAGE/MLSys2026-CAGE.pdf",
+  "resolved_pdf_url": "https://arxiv.org/pdf/2510.18784",
+  "source_type": "native_pdf",
+  "status": "downloaded",
+  "bytes": 730709,
+  "sha256": "eb5400aca442bcd9e590bb04ef1c8754fced1273c9398f80289f0875ef491f82",
+  "title_match": 1.0,
+  "error": "",
+  "abbreviation": "CAGE",
+  "notes": "curvature aware gradient estimation",
+  "arxiv_metadata": {
+    "Comments:": "Accepted at MLSys 2026 (Oral). To appear in Proceedings of Machine Learning and Systems 8",
+    "Subjects:": "Machine Learning (cs.LG)",
+    "Cite as:": "arXiv:2510.18784 [cs.LG]",
+    "": "https://doi.org/10.48550/arXiv.2510.18784 Focus to learn more arXiv-issued DOI via DataCite",
+    "Journal reference:": "Proceedings of Machine Learning and Systems 8 (MLSys 2026)"
+  },
+  "venue_status": "accepted",
+  "venue_evidence": [
+    "https://arxiv.org/abs/2510.18784"
+  ],
+  "code_archive": {
+    "paper_dir": "MLSys2026-CAGE",
+    "title": "CAGE: Curvature-Aware Gradient Estimation For Accurate Quantization-Aware Training",
+    "paper_url": "https://arxiv.org/abs/2510.18784",
+    "checked_at": "2026-10-07T02:01:33.475677+00:00",
+    "status": "linked",
+    "local_path": "/usr/data/CAGE",
+    "symlink_path": "/usr/data/Awesome-Quantization/03-梯度估计与可微量化/MLSys2026-CAGE/code",
+    "repository_url": "https://github.com/IST-DASLab/CAGE.git",
+    "commit": "c91e760c798b3c5210285a076d199b3db6932af1",
+    "note": "官方仓库；仅下载源码，未安装依赖或运行训练。",
+    "verification": "论文提供的官方仓库地址",
+    "paper_path": "03-梯度估计与可微量化/MLSys2026-CAGE",
+    "category_dir": "03-梯度估计与可微量化"
+  },
+  "paper_path": "03-梯度估计与可微量化/MLSys2026-CAGE",
+  "high_level": "STE梯度可以加入与量化损失和局部曲率有关的校正。",
+  "method_summary": "从多目标QAT视角推导曲率校正，并用Adam统计量实现高效近似。",
+  "tags": [
+    "STE校正",
+    "曲率",
+    "优化器无关"
+  ]
+}

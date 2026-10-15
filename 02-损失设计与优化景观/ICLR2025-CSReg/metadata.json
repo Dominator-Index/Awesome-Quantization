@@ -1,0 +1,52 @@
+{
+  "index": 11,
+  "category": "损失设计与优化景观",
+  "title": "Cauchy-Schwarz Regularizers",
+  "source_url": "https://arxiv.org/abs/2503.01639",
+  "stable_id": "2503.01639",
+  "category_dir": "02-损失设计与优化景观",
+  "paper_dir": "ICLR2025-CSReg",
+  "pdf_path": "02-损失设计与优化景观/ICLR2025-CSReg/ICLR2025-CSReg.pdf",
+  "resolved_pdf_url": "https://arxiv.org/pdf/2503.01639",
+  "source_type": "native_pdf",
+  "status": "downloaded",
+  "bytes": 2432985,
+  "sha256": "0eb35122a6f19ed1f2db065e8f35add6fed45c03cad14ffacd28b22dcb117ea6",
+  "title_match": 1.0,
+  "error": "",
+  "abbreviation": "CSReg",
+  "notes": "regularizer for ternary distribution",
+  "arxiv_metadata": {
+    "Comments:": "Accepted to ICLR 2025",
+    "Subjects:": "Optimization and Control (math.OC) ; Machine Learning (cs.LG)",
+    "Cite as:": "arXiv:2503.01639 [math.OC]",
+    "": "https://doi.org/10.48550/arXiv.2503.01639 Focus to learn more arXiv-issued DOI via DataCite"
+  },
+  "venue_status": "accepted",
+  "venue_evidence": [
+    "https://arxiv.org/abs/2503.01639"
+  ],
+  "code_archive": {
+    "paper_dir": "ICLR2025-CSReg",
+    "title": "Cauchy-Schwarz Regularizers",
+    "paper_url": "https://arxiv.org/abs/2503.01639",
+    "checked_at": "2026-10-07T02:01:26.290617+00:00",
+    "status": "linked",
+    "local_path": "/usr/data/CS_regularizers",
+    "symlink_path": "/usr/data/Awesome-Quantization/02-损失设计与优化景观/ICLR2025-CSReg/code",
+    "repository_url": "https://github.com/IIP-Group/CS_regularizers.git",
+    "commit": "c2d4ea58147e8b36290b8caafc7a06296bb7fe38",
+    "note": "官方仓库；仅下载源码，未安装依赖或运行训练。",
+    "verification": "论文提供的官方仓库地址",
+    "paper_path": "02-损失设计与优化景观/ICLR2025-CSReg",
+    "category_dir": "02-损失设计与优化景观"
+  },
+  "paper_path": "02-损失设计与优化景观/ICLR2025-CSReg",
+  "high_level": "可微正则项能够推动连续参数形成离散结构。",
+  "method_summary": "用Cauchy–Schwarz不等式构造正则项；三值结构是其应用之一，也研究其他向量和矩阵结构。",
+  "tags": [
+    "目标函数",
+    "离散结构",
+    "通用正则化"
+  ]
+}

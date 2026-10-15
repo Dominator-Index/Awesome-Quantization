@@ -1,0 +1,53 @@
+{
+  "index": 12,
+  "category": "梯度估计与可微量化",
+  "title": "HESTIA: A Hessian-Guided Differentiable Quantization-Aware Training Framework for Extremely Low-Bit LLMs",
+  "source_url": "https://arxiv.org/abs/2601.20745",
+  "stable_id": "2601.20745",
+  "category_dir": "03-梯度估计与可微量化",
+  "paper_dir": "NeurIPS2026-HESTIA",
+  "pdf_path": "03-梯度估计与可微量化/NeurIPS2026-HESTIA/NeurIPS2026-HESTIA.pdf",
+  "resolved_pdf_url": "https://arxiv.org/pdf/2601.20745",
+  "source_type": "native_pdf",
+  "status": "downloaded",
+  "bytes": 745253,
+  "sha256": "857d023c442a1631d0d5f6b5d135fc860b5ba9c62b64aa71f736d7c3b146c56b",
+  "title_match": 1.0,
+  "error": "",
+  "abbreviation": "HESTIA",
+  "notes": "Hessian guided QAT; user: dont really like this",
+  "arxiv_metadata": {
+    "Comments:": "13 pages, 2 figures",
+    "Subjects:": "Machine Learning (cs.LG) ; Artificial Intelligence (cs.AI)",
+    "Cite as:": "arXiv:2601.20745 [cs.LG]",
+    "": "https://doi.org/10.48550/arXiv.2601.20745 Focus to learn more arXiv-issued DOI via DataCite"
+  },
+  "venue_status": "accepted",
+  "venue_evidence": [
+    "https://arxiv.org/abs/2601.20745",
+    "https://neurips.cc/virtual/2026/poster/148592"
+  ],
+  "code_archive": {
+    "paper_dir": "NeurIPS2026-HESTIA",
+    "title": "HESTIA: A Hessian-Guided Differentiable Quantization-Aware Training Framework for Extremely Low-Bit LLMs",
+    "paper_url": "https://arxiv.org/abs/2601.20745",
+    "checked_at": "2026-10-07T02:01:37.769102+00:00",
+    "status": "linked",
+    "local_path": "/usr/data/HESTIA",
+    "symlink_path": "/usr/data/Awesome-Quantization/03-梯度估计与可微量化/NeurIPS2026-HESTIA/code",
+    "repository_url": "https://github.com/hestia2026/Hestia.git",
+    "commit": "2e3eecdc9f2a1c15a29b3dddc5db0bd694d637c9",
+    "note": "官方仓库；仅下载源码，未安装依赖或运行训练。",
+    "verification": "论文提供的官方仓库地址",
+    "paper_path": "03-梯度估计与可微量化/NeurIPS2026-HESTIA",
+    "category_dir": "03-梯度估计与可微量化"
+  },
+  "paper_path": "03-梯度估计与可微量化/NeurIPS2026-HESTIA",
+  "high_level": "训练早期保留软分配梯度，再逐步逼近硬量化，有助于缓解过早离散化。",
+  "method_summary": "使用温度控制的softmax量化松弛，并以Hessian相关信息引导训练与退火。",
+  "tags": [
+    "软量化",
+    "温度退火",
+    "Hessian"
+  ]
+}

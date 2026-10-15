@@ -1,0 +1,47 @@
+{
+  "index": 10,
+  "category": "损失设计与优化景观",
+  "title": "Understanding Quantization-Aware Training: Gradients at Quantized Weights Bias to the Low-Loss Basin",
+  "source_url": "https://arxiv.org/abs/2606.09012",
+  "stable_id": "2606.09012",
+  "category_dir": "02-损失设计与优化景观",
+  "paper_dir": "arXiv2026-QAT-LowLossBasin",
+  "pdf_path": "02-损失设计与优化景观/arXiv2026-QAT-LowLossBasin/arXiv2026-QAT-LowLossBasin.pdf",
+  "resolved_pdf_url": "https://arxiv.org/pdf/2606.09012",
+  "source_type": "native_pdf",
+  "status": "downloaded",
+  "bytes": 7167592,
+  "sha256": "261737a5f591dcfc55f154e90d30dc7c22250086bcce2a5d7d75aa615ab3fc09",
+  "title_match": 1.0,
+  "error": "",
+  "abbreviation": "QAT-LowLossBasin",
+  "notes": "gradients at quantized weights bias to low-loss basin",
+  "arxiv_metadata": {
+    "Comments:": "31 pages, 10 figures",
+    "Subjects:": "Machine Learning (cs.LG) ; Artificial Intelligence (cs.AI); Optimization and Control (math.OC); Machine Learning (stat.ML)",
+    "Cite as:": "arXiv:2606.09012 [cs.LG]",
+    "": "https://doi.org/10.48550/arXiv.2606.09012 Focus to learn more arXiv-issued DOI via DataCite"
+  },
+  "venue_status": "unconfirmed",
+  "venue_evidence": [
+    "https://arxiv.org/abs/2606.09012"
+  ],
+  "code_archive": {
+    "paper_dir": "arXiv2026-QAT-LowLossBasin",
+    "title": "Understanding Quantization-Aware Training: Gradients at Quantized Weights Bias to the Low-Loss Basin",
+    "paper_url": "https://arxiv.org/abs/2606.09012",
+    "checked_at": "2026-10-07T02:01:44.617846+00:00",
+    "status": "official_repository_not_confirmed",
+    "note": "已检查本地 PDF、论文页面与公开仓库搜索，尚未确认可下载的作者官方代码；不等于已证明没有公开代码。未建立空目录或失效 code 链接。",
+    "paper_path": "02-损失设计与优化景观/arXiv2026-QAT-LowLossBasin",
+    "category_dir": "02-损失设计与优化景观"
+  },
+  "paper_path": "02-损失设计与优化景观/arXiv2026-QAT-LowLossBasin",
+  "high_level": "在部署的量化权重上评估梯度，有机会感知损失谷壁并引导后续量化点返回低损失区域。",
+  "method_summary": "建立局部损失盆地的几何框架，解释某些PTQ失败与STE-QAT恢复现象。",
+  "tags": [
+    "理论分析",
+    "STE偏差",
+    "PTQ与QAT"
+  ]
+}

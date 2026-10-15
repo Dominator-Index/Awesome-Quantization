@@ -1,0 +1,52 @@
+{
+  "index": 5,
+  "category": "量化表示、重建与位宽",
+  "title": "ParetoQ: Improving Scaling Laws in Extremely Low-bit LLM Quantization",
+  "source_url": "https://arxiv.org/abs/2502.02631",
+  "stable_id": "2502.02631",
+  "category_dir": "01-量化表示与位宽",
+  "paper_dir": "NeurIPS2025-ParetoQ",
+  "pdf_path": "01-量化表示与位宽/NeurIPS2025-ParetoQ/NeurIPS2025-ParetoQ.pdf",
+  "resolved_pdf_url": "https://arxiv.org/pdf/2502.02631",
+  "source_type": "native_pdf",
+  "status": "downloaded",
+  "bytes": 904593,
+  "sha256": "8c9b4ec1beaea9af616f78b12f6238275dbd4fae760544b4177df818cdc7ffa8",
+  "title_match": 1.0,
+  "error": "",
+  "abbreviation": "ParetoQ",
+  "notes": "scaling laws for low bit training",
+  "arxiv_metadata": {
+    "Comments:": "NeurIPS 2025. Model weights are available at this https URL",
+    "Subjects:": "Machine Learning (cs.LG) ; Artificial Intelligence (cs.AI); Computation and Language (cs.CL); Computer Vision and Pattern Recognition (cs.CV)",
+    "Cite as:": "arXiv:2502.02631 [cs.LG]",
+    "": "https://doi.org/10.48550/arXiv.2502.02631 Focus to learn more arXiv-issued DOI via DataCite"
+  },
+  "venue_status": "accepted",
+  "venue_evidence": [
+    "https://arxiv.org/abs/2502.02631"
+  ],
+  "code_archive": {
+    "paper_dir": "NeurIPS2025-ParetoQ",
+    "title": "ParetoQ: Improving Scaling Laws in Extremely Low-bit LLM Quantization",
+    "paper_url": "https://arxiv.org/abs/2502.02631",
+    "checked_at": "2026-10-07T02:01:36.616933+00:00",
+    "status": "linked",
+    "local_path": "/usr/data/ParetoQ",
+    "symlink_path": "/usr/data/Awesome-Quantization/01-量化表示与位宽/NeurIPS2025-ParetoQ/code",
+    "repository_url": "https://github.com/facebookresearch/ParetoQ.git",
+    "commit": "7b36b8de958aada6508e620c8dc544e6ed6c39b4",
+    "note": "官方仓库；仅下载源码，未安装依赖或运行训练。",
+    "verification": "作者/实验室官方仓库 README 与论文标题、链接对应",
+    "paper_path": "01-量化表示与位宽/NeurIPS2025-ParetoQ",
+    "category_dir": "01-量化表示与位宽"
+  },
+  "paper_path": "01-量化表示与位宽/NeurIPS2025-ParetoQ",
+  "high_level": "不同位宽对应不同表示变化和训练需求，需要统一条件下比较大小与精度。",
+  "method_summary": "统一比较1、1.58、2、3、4 bit，并优化各位宽的量化函数与训练配方。",
+  "tags": [
+    "位宽缩放",
+    "训练配方",
+    "模型大小与精度"
+  ]
+}

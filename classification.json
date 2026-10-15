@@ -1,0 +1,260 @@
+{
+  "classified_at": "2026-10-15",
+  "papers": [
+    {
+      "name": "arXiv2016-TWN",
+      "title": "Ternary Weight Networks",
+      "category": "量化表示、重建与位宽",
+      "category_dir": "01-量化表示与位宽",
+      "path": "01-量化表示与位宽/arXiv2016-TWN",
+      "pdf_path": "01-量化表示与位宽/arXiv2016-TWN/arXiv2016-TWN.pdf",
+      "high_level": "三值表示需要同时处理离散值与缩放系数，不能只对全精度权重直接取符号。",
+      "method": "用带缩放的三值权重近似连续权重，并用阈值规则近似求解量化映射。",
+      "tags": [
+        "三值表示",
+        "量化映射",
+        "缩放系数"
+      ],
+      "has_analysis": true,
+      "classification_basis": "PDF first-page abstract and existing notes; no new full-paper review."
+    },
+    {
+      "name": "arXiv2026-QUASAR",
+      "title": "QUASAR: Lowering the Loss Floor of Quantization-Aware Training with Loss-Aware Reconstruction",
+      "category": "量化表示、重建与位宽",
+      "category_dir": "01-量化表示与位宽",
+      "path": "01-量化表示与位宽/arXiv2026-QUASAR",
+      "pdf_path": "01-量化表示与位宽/arXiv2026-QUASAR/arXiv2026-QUASAR.pdf",
+      "high_level": "训练中的权重与重要性会变化，量化重建也应随之调整。",
+      "method": "用梯度平方EMA估计重要性，搜索裁剪范围，以加权最小二乘拟合仿射反量化器。",
+      "tags": [
+        "损失感知重建",
+        "裁剪",
+        "二阶矩统计"
+      ],
+      "has_analysis": false,
+      "classification_basis": "PDF first-page abstract and existing notes; no new full-paper review."
+    },
+    {
+      "name": "ICML2026-WinQ",
+      "title": "WinQ: Accelerating Quantization-Aware Training of Language Models Around Saddle Points",
+      "category": "损失设计与优化景观",
+      "category_dir": "02-损失设计与优化景观",
+      "path": "02-损失设计与优化景观/ICML2026-WinQ",
+      "pdf_path": "02-损失设计与优化景观/ICML2026-WinQ/ICML2026-WinQ.pdf",
+      "high_level": "QAT训练慢可能来自鞍点附近大量小曲率方向，而非训练已经收敛。",
+      "method": "周期性将连续权重向量化权重插值重置，并在加噪权重上评估梯度。",
+      "tags": [
+        "鞍点",
+        "权重重置",
+        "噪声注入"
+      ],
+      "has_analysis": true,
+      "classification_basis": "PDF first-page abstract and existing notes; no new full-paper review."
+    },
+    {
+      "name": "arXiv2026-StableQAT",
+      "title": "StableQAT: Stable Quantization-Aware Training at Ultra-Low Bitwidths",
+      "category": "梯度估计与可微量化",
+      "category_dir": "03-梯度估计与可微量化",
+      "path": "03-梯度估计与可微量化/arXiv2026-StableQAT",
+      "pdf_path": "03-梯度估计与可微量化/arXiv2026-StableQAT/arXiv2026-StableQAT.pdf",
+      "high_level": "硬量化反向的代理梯度可以比恒等STE更平滑、稳定。",
+      "method": "从舍入算子的离散Fourier分析构造轻量代理梯度族，STE是其特例。",
+      "tags": [
+        "代理梯度",
+        "STE推广",
+        "Fourier分析"
+      ],
+      "has_analysis": false,
+      "classification_basis": "PDF first-page abstract and existing notes; no new full-paper review."
+    },
+    {
+      "name": "NeurIPS2025-ParetoQ",
+      "title": "ParetoQ: Improving Scaling Laws in Extremely Low-bit LLM Quantization",
+      "category": "量化表示、重建与位宽",
+      "category_dir": "01-量化表示与位宽",
+      "path": "01-量化表示与位宽/NeurIPS2025-ParetoQ",
+      "pdf_path": "01-量化表示与位宽/NeurIPS2025-ParetoQ/NeurIPS2025-ParetoQ.pdf",
+      "high_level": "不同位宽对应不同表示变化和训练需求，需要统一条件下比较大小与精度。",
+      "method": "统一比较1、1.58、2、3、4 bit，并优化各位宽的量化函数与训练配方。",
+      "tags": [
+        "位宽缩放",
+        "训练配方",
+        "模型大小与精度"
+      ],
+      "has_analysis": true,
+      "classification_basis": "PDF first-page abstract and existing notes; no new full-paper review."
+    },
+    {
+      "name": "arXiv2026-Muon2",
+      "title": "Muon2: Boosting Muon via Adaptive Second-Moment Preconditioning",
+      "category": "优化器与预条件",
+      "category_dir": "04-优化器与预条件",
+      "path": "04-优化器与预条件/arXiv2026-Muon2",
+      "pdf_path": "04-优化器与预条件/arXiv2026-Muon2/arXiv2026-Muon2.pdf",
+      "high_level": "正交化前改善动量矩阵的条件，可以降低求近似极分解的负担。",
+      "method": "在Muon正交化之前加入Adam式二阶矩预条件，改善谱条件与迭代效率。",
+      "tags": [
+        "通用优化器",
+        "二阶矩适应",
+        "矩阵正交化"
+      ],
+      "has_analysis": false,
+      "classification_basis": "PDF first-page abstract and existing notes; no new full-paper review."
+    },
+    {
+      "name": "NeurIPS2025-OPT-MatrixWhitening",
+      "title": "What Really Matters in Matrix-Whitening Optimizers?",
+      "category": "优化器与预条件",
+      "category_dir": "04-优化器与预条件",
+      "path": "04-优化器与预条件/NeurIPS2025-OPT-MatrixWhitening",
+      "pdf_path": "04-优化器与预条件/NeurIPS2025-OPT-MatrixWhitening/NeurIPS2025-OPT-MatrixWhitening.pdf",
+      "high_level": "矩阵白化的收益不能只用奇异值是否足够一致解释，还需考察方差适应。",
+      "method": "在统一调参下比较矩阵白化优化器并拆解关键组件；它是分析与消融研究。",
+      "tags": [
+        "通用优化器对照",
+        "白化",
+        "方差适应"
+      ],
+      "has_analysis": false,
+      "classification_basis": "PDF first-page abstract and existing notes; no new full-paper review."
+    },
+    {
+      "name": "MLSys2026-CAGE",
+      "title": "CAGE: Curvature-Aware Gradient Estimation For Accurate Quantization-Aware Training",
+      "category": "梯度估计与可微量化",
+      "category_dir": "03-梯度估计与可微量化",
+      "path": "03-梯度估计与可微量化/MLSys2026-CAGE",
+      "pdf_path": "03-梯度估计与可微量化/MLSys2026-CAGE/MLSys2026-CAGE.pdf",
+      "high_level": "STE梯度可以加入与量化损失和局部曲率有关的校正。",
+      "method": "从多目标QAT视角推导曲率校正，并用Adam统计量实现高效近似。",
+      "tags": [
+        "STE校正",
+        "曲率",
+        "优化器无关"
+      ],
+      "has_analysis": false,
+      "classification_basis": "PDF first-page abstract and existing notes; no new full-paper review."
+    },
+    {
+      "name": "arXiv2026-JacQuant",
+      "title": "JacQuant: STE-Free Quantization-Aware Training via Learned Jacobian Surrogates",
+      "category": "梯度估计与可微量化",
+      "category_dir": "03-梯度估计与可微量化",
+      "path": "03-梯度估计与可微量化/arXiv2026-JacQuant",
+      "pdf_path": "03-梯度估计与可微量化/arXiv2026-JacQuant/arXiv2026-JacQuant.pdf",
+      "high_level": "可学习的局部敏感性代理可用于改善低精度模型的更新。",
+      "method": "学习对角或分块Jacobian敏感性代理，结合方差缩减优化；不改变前向量化器。",
+      "tags": [
+        "学习型代理",
+        "Jacobian",
+        "STE-free"
+      ],
+      "has_analysis": false,
+      "classification_basis": "PDF first-page abstract and existing notes; no new full-paper review."
+    },
+    {
+      "name": "arXiv2026-QAT-LowLossBasin",
+      "title": "Understanding Quantization-Aware Training: Gradients at Quantized Weights Bias to the Low-Loss Basin",
+      "category": "损失设计与优化景观",
+      "category_dir": "02-损失设计与优化景观",
+      "path": "02-损失设计与优化景观/arXiv2026-QAT-LowLossBasin",
+      "pdf_path": "02-损失设计与优化景观/arXiv2026-QAT-LowLossBasin/arXiv2026-QAT-LowLossBasin.pdf",
+      "high_level": "在部署的量化权重上评估梯度，有机会感知损失谷壁并引导后续量化点返回低损失区域。",
+      "method": "建立局部损失盆地的几何框架，解释某些PTQ失败与STE-QAT恢复现象。",
+      "tags": [
+        "理论分析",
+        "STE偏差",
+        "PTQ与QAT"
+      ],
+      "has_analysis": false,
+      "classification_basis": "PDF first-page abstract and existing notes; no new full-paper review."
+    },
+    {
+      "name": "ICLR2025-CSReg",
+      "title": "Cauchy-Schwarz Regularizers",
+      "category": "损失设计与优化景观",
+      "category_dir": "02-损失设计与优化景观",
+      "path": "02-损失设计与优化景观/ICLR2025-CSReg",
+      "pdf_path": "02-损失设计与优化景观/ICLR2025-CSReg/ICLR2025-CSReg.pdf",
+      "high_level": "可微正则项能够推动连续参数形成离散结构。",
+      "method": "用Cauchy–Schwarz不等式构造正则项；三值结构是其应用之一，也研究其他向量和矩阵结构。",
+      "tags": [
+        "目标函数",
+        "离散结构",
+        "通用正则化"
+      ],
+      "has_analysis": false,
+      "classification_basis": "PDF first-page abstract and existing notes; no new full-paper review."
+    },
+    {
+      "name": "NeurIPS2026-HESTIA",
+      "title": "HESTIA: A Hessian-Guided Differentiable Quantization-Aware Training Framework for Extremely Low-Bit LLMs",
+      "category": "梯度估计与可微量化",
+      "category_dir": "03-梯度估计与可微量化",
+      "path": "03-梯度估计与可微量化/NeurIPS2026-HESTIA",
+      "pdf_path": "03-梯度估计与可微量化/NeurIPS2026-HESTIA/NeurIPS2026-HESTIA.pdf",
+      "high_level": "训练早期保留软分配梯度，再逐步逼近硬量化，有助于缓解过早离散化。",
+      "method": "使用温度控制的softmax量化松弛，并以Hessian相关信息引导训练与退火。",
+      "tags": [
+        "软量化",
+        "温度退火",
+        "Hessian"
+      ],
+      "has_analysis": true,
+      "classification_basis": "PDF first-page abstract and existing notes; no new full-paper review."
+    },
+    {
+      "name": "NeurIPS2026-LOTION",
+      "title": "LOTION: Smoothing the Optimization Landscape for Quantized Training",
+      "category": "损失设计与优化景观",
+      "category_dir": "02-损失设计与优化景观",
+      "path": "02-损失设计与优化景观/NeurIPS2026-LOTION",
+      "pdf_path": "02-损失设计与优化景观/NeurIPS2026-LOTION/NeurIPS2026-LOTION.pdf",
+      "high_level": "可通过改变目标的平滑方式，处理分段常数量化损失的优化困难。",
+      "method": "以随机舍入噪声下的期望构造平滑损失，并分析其极小点与优化性质。",
+      "tags": [
+        "平滑目标",
+        "随机舍入",
+        "优化理论"
+      ],
+      "has_analysis": false,
+      "classification_basis": "PDF first-page abstract and existing notes; no new full-paper review."
+    },
+    {
+      "name": "ICML2026-ECO",
+      "title": "ECO: Quantized Training without Full-Precision Master Weights",
+      "category": "低精度权重与训练状态",
+      "category_dir": "05-低精度权重与训练状态",
+      "path": "05-低精度权重与训练状态/ICML2026-ECO",
+      "pdf_path": "05-低精度权重与训练状态/ICML2026-ECO/ICML2026-ECO.pdf",
+      "high_level": "去掉高精度master weights后，需要补偿直接低精度更新产生的舍入误差。",
+      "method": "直接更新量化权重，将量化误差反馈进已有优化器动量，避免额外master副本。",
+      "tags": [
+        "master weights",
+        "误差反馈",
+        "动量"
+      ],
+      "has_analysis": false,
+      "classification_basis": "PDF first-page abstract and existing notes; no new full-paper review."
+    },
+    {
+      "name": "ICML2026-M+Adam",
+      "title": "M+Adam: Low-Precision Training via Additive-Multiplicative Optimization",
+      "category": "低精度权重与训练状态",
+      "category_dir": "05-低精度权重与训练状态",
+      "path": "05-低精度权重与训练状态/ICML2026-M+Adam",
+      "pdf_path": "05-低精度权重与训练状态/ICML2026-M+Adam/ICML2026-M+Adam.pdf",
+      "high_level": "低精度下，加性与乘性更新会在不同权重尺度遇到停滞。",
+      "method": "结合Adam加性更新与Madam乘性更新，改善低精度权重优化。",
+      "tags": [
+        "加乘更新",
+        "有限精度",
+        "Adam与Madam"
+      ],
+      "has_analysis": true,
+      "classification_basis": "PDF first-page abstract and existing notes; no new full-paper review."
+    }
+  ]
+}

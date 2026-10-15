@@ -1,0 +1,23 @@
+{
+  "generated_at_unix": 1792043971,
+  "total": 15,
+  "category_count": 5,
+  "categories": {
+    "优化器与预条件": 2,
+    "低精度权重与训练状态": 2,
+    "损失设计与优化景观": 4,
+    "梯度估计与可微量化": 4,
+    "量化表示、重建与位宽": 3
+  },
+  "paper_directory_count": 15,
+  "status_counts": {
+    "downloaded": 14,
+    "existing": 1
+  },
+  "valid_pdf_count": 15,
+  "missing_or_invalid_count": 0,
+  "pdfinfo_failures": 0,
+  "low_title_match_indices": [],
+  "temporary_files": [],
+  "total_bytes": 25172269
+}

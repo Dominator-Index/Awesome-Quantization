@@ -1,0 +1,48 @@
+{
+  "index": 13,
+  "category": "损失设计与优化景观",
+  "title": "LOTION: Smoothing the Optimization Landscape for Quantized Training",
+  "source_url": "https://arxiv.org/abs/2510.08757",
+  "stable_id": "2510.08757",
+  "category_dir": "02-损失设计与优化景观",
+  "paper_dir": "NeurIPS2026-LOTION",
+  "pdf_path": "02-损失设计与优化景观/NeurIPS2026-LOTION/NeurIPS2026-LOTION.pdf",
+  "resolved_pdf_url": "https://arxiv.org/pdf/2510.08757",
+  "source_type": "native_pdf",
+  "status": "downloaded",
+  "bytes": 592150,
+  "sha256": "3271b9f254ed940863c21e0825a4c06111c1bc6b007390b3f3ef172fce34e65b",
+  "title_match": 0.8333,
+  "error": "",
+  "abbreviation": "OPT-LOTION",
+  "notes": "smooth quantized loss landscape; user: dont really like this",
+  "arxiv_metadata": {
+    "Comments:": "9 pages of main text + appendices",
+    "Subjects:": "Machine Learning (cs.LG) ; Hardware Architecture (cs.AR)",
+    "Cite as:": "arXiv:2510.08757 [cs.LG]",
+    "": "https://doi.org/10.48550/arXiv.2510.08757 Focus to learn more arXiv-issued DOI via DataCite"
+  },
+  "venue_status": "accepted",
+  "venue_evidence": [
+    "https://openreview.net/pdf/b4398426538fb06a883d6a87b73d01d250cbb65c.pdf",
+    "https://neurips.cc/virtual/2026/poster/150892"
+  ],
+  "code_archive": {
+    "paper_dir": "NeurIPS2026-LOTION",
+    "title": "LOTION: Smoothing the Optimization Landscape for Quantized Training",
+    "paper_url": "https://arxiv.org/abs/2510.08757",
+    "checked_at": "2026-10-07T02:01:39.223202+00:00",
+    "status": "official_repository_not_confirmed",
+    "note": "已检查本地 PDF、论文页面与公开仓库搜索，尚未确认可下载的作者官方代码；不等于已证明没有公开代码。未建立空目录或失效 code 链接。",
+    "paper_path": "02-损失设计与优化景观/NeurIPS2026-LOTION",
+    "category_dir": "02-损失设计与优化景观"
+  },
+  "paper_path": "02-损失设计与优化景观/NeurIPS2026-LOTION",
+  "high_level": "可通过改变目标的平滑方式，处理分段常数量化损失的优化困难。",
+  "method_summary": "以随机舍入噪声下的期望构造平滑损失，并分析其极小点与优化性质。",
+  "tags": [
+    "平滑目标",
+    "随机舍入",
+    "优化理论"
+  ]
+}
