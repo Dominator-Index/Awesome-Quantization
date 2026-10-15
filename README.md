@@ -15,7 +15,7 @@
 | [优化器与预条件](04-优化器与预条件/README.md) | 2 | 研究更新方向、矩阵白化与二阶矩适应；本组含通用优化器背景论文。 |
 | [低精度权重与训练状态](05-低精度权重与训练状态/README.md) | 2 | 处理实际存储精度、master weights、舍入误差和低精度更新停滞。 |
 
-[结构化分类](classification.json) · [CSV索引](论文分类.csv) · [代码索引](CODE_INDEX.md)
+`classification.json`（本地文件） · [CSV索引](论文分类.csv) · [代码索引](CODE_INDEX.md)
 
 **阅读边界：** Muon²、MatrixWhitening是通用优化器背景，CSReg是通用正则化方法；收录用于量化研究对照，不把通用训练结果直接当作QAT增益。ECO去掉master weights，也不代表所有optimizer states都已低精度化。新增摘要概览不等于所有15篇已全文精读。
 
@@ -109,6 +109,6 @@ HESTIA 与 LOTION 保留用户备注 “dont really like this”，并照常归�
 
 GitHub仓库：[Dominator-Index/Awesome-Quantization](https://github.com/Dominator-Index/Awesome-Quantization)。实际目录为`/usr/data/Awesome-Quantization`，原工作区的`Quantizatized-Aware-Training`已改为指向整个仓库的软链接。
 
-10个已有代码checkout保留在`/usr/data`，各论文的`code`软链接用于本机阅读，不嵌套提交第三方代码库。公开代码URL见[代码索引](CODE_INDEX.md)，本机链接见[local-links.json](local-links.json)。本次未重新搜索此前未确认的5个官方代码地址，保留原核对日期与状态。
+10个已有代码checkout保留在`/usr/data`，各论文的`code`软链接用于本机阅读，不嵌套提交第三方代码库。公开代码URL见[代码索引](CODE_INDEX.md)，本机链接见`local-links.json`（本地文件）。本次未重新搜索此前未确认的5个官方代码地址，保留原核对日期与状态。
 
-迁移与分类路径映射见[migration-20261015.json](migration-20261015.json)，原论文PDF的SHA256保持不变。
+迁移与分类路径映射见`migration-20261015.json`（本地文件），原论文PDF的SHA256保持不变。
